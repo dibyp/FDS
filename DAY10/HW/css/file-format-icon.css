@@ -1,0 +1,70 @@
+.reset_list ul, .reset_list ol {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.lecture_file_list a {
+  display: block;
+
+  font-size: 2.38em;
+  text-decoration: none;
+  text-indent: 40px;
+  background-repeat: no-repeat;
+}
+
+a[href$=".psd"] {
+  background-image: url("../images/psd.png");
+}
+a[href$=".ai"] {
+  background-image: url("../images/ai.png");
+}
+a[href$=".pdf"] {
+  background-image: url("../images/pdf.png");
+}
+a[href$=".aac"] {
+  background-image: url("../images/aac.png");
+}
+a[href$=".avi"] {
+  background-image: url("../images/avi.png");
+}
+a[href$=".doc"] {
+  background-image: url("../images/doc.png");
+}
+a[href$=".flac"] {
+  background-image: url("../images/flac.png");
+}
+a[href$=".gif"] {
+  background-image: url("../images/gif.png");
+}
+a[href$=".html"] {
+  background-image: url("../images/html.png");
+}
+a[href$=".jpg"] {
+  background-image: url("../images/jpg.png");
+}
+a[href$=".js"] {
+  background-image: url("../images/js.png");
+}
+a[href$=".mov"] {
+  background-image: url("../images/mov.png");
+}
+a[href$=".mp3"] {
+  background-image: url("../images/mp3.png");
+}
+a[href$=".mp4"] {
+  background-image: url("../images/mp4.png");
+}
+a[href$=".png"] {
+  background-image: url("../images/png.png");
+}
+a[href$=".tiff"] {
+  background-image: url("../images/tiff.png");
+}
+a[href$=".txt"] {
+  background-image: url("../images/txt.png");
+}
+a[href$=".xls"] {
+  background-image: url("../images/xls.png");
+}
