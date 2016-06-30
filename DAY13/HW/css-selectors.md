@@ -26,22 +26,11 @@
         | :empty | 요소 내 내용이 빈 경우 선택
         | :target | 문서의 URI의 조각 식별자(/#id)를 가진 요소 선택
         | :enabled | 폼 요소 컨트롤 중 활성화
-        | :disabled |
-        | :checked |
+        | :disabled | 폼 요소 컨트롤 중 비활성화
+        | :checked | (라디오 버튼 혹은 체크박스) 폼 요소 체크된 것
         | :invalid |
         | :read-only |
         | :read-write |
         | :optional |
         | :out-of-range |
          | :lang(language) | 요소에 lang 속성이 language인 것을 선택(속성 선택자가 더 직관적일 수 있다)
-**가상 요소** | ::root | 루트 요소 선택
-        | ::empty | 요소 내 내용이 빈 경우 선택
-        | ::target | 문서의 URI의 조각 식별자(/#id)를 가진 요소 선택
-        | ::enabled |
-        | ::disabled |
-        | ::checked |
-        | ::invalid |
-        | ::read-only |
-        | ::read-write |
-        | ::optional |
-        | ::out-of-range |
