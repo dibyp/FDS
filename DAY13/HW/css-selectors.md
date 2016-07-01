@@ -11,6 +11,7 @@
         | [attr*="value"] | 속성 값을 포함하는 경우 선택
         | [attr|="value"] | 하이픈(-)으로 구분되는 단어가 일치할 때 선택
         | [attr~="value"] | 공백으로 구분되는 단어가 일치할 때 선택
+        | [attr operator value i] | 대소문자 상관 없이 해당 value와 같은 것을 선택
 **가상 클래스** | :link | <a> 요소의 기본 상태
         | :visited | <a> 요소의 방문한 상태
         | :hover | 요소에 마우스 커서가 올라간 상태
@@ -28,8 +29,8 @@
         | :empty | 요소 내 내용이 빈 경우 선택
         | :target | 문서의 URI의 조각 식별자(/#id)를 가진 요소 선택
         | :enabled | 폼 요소 컨트롤 중 활성화
-        | :disabled |
-        | :checked |
+        | :disabled | 폼 요소 컨트롤 중 비활성화
+        | :checked | (라디오 버튼 혹은 체크박스)폼 요소 중 체크된 것
         | :invalid |
         | :read-only |
         | :read-write |
